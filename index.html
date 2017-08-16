@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Local Weather App</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="outside">
+  <div class="middleside">
+    <div class="innerside">
+      <div class="container-fluid">
+
+        <div id="title-block" class="text-center card-block"><span id="error" class="text-warning"></span>
+          <h3 class="card-title">Local Weather App For <span id="local-area" class = "text-warning"></span></h3>
+        </div>
+
+        <div id="center-block" class="card-block">
+          <div  class="text-center">
+            <h3 id="weather-type" class = "text-warning">
+         <h3> </div>
+          <div class="card-group">
+          <div id="weather-card" class="card-block text-center">
+            <div class="weatherIcon">
+              <div id="weather-icon-toggle">
+                <div class="inner"></div></div>
+              </div>
+          </div>
+          <div class="card-block text-center text-warning">
+            <h1> <span id="weather-temp"> </span> <span id = "temp-scale">°F</span> </h1>
+          </div>
+          </div>
+        </div>
+
+        <button class="btn btn-outline-warning btn-block" id="temp-swap">Change Temperature</button></div>
+          <div class="card-group">
+          <div id="credits" class="card-block text-center">
+            <p>Coded by
+              <a class="card-link" href="https://codepen.io/Blumanji">Ethan McCasland</a>
+          </div>
+          <div id="credits" class="card-block text-center">CSS icons by <a href="https://codepen.io/tiffanyadu">Tiffany Du</a></p>
+          </div>
+            <div id="credits" class="card-block text-center">Weather data via <a href="https://www.wunderground.com/weather/api">Wunderground API</a></p>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
